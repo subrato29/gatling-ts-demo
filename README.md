@@ -11,7 +11,7 @@ Run the typeScript sample:
 ```shell
 cd gatling-ts-demo
 npm install
-npx gatling run --typescript --simulation computerdatabase # automatically download Gatling runtime, build the project, and run the computerdatabase simulation
+npm run test # automatically download Gatling runtime, build the project, and run the videogame simulation
 ```
 
 You can also launch the [Gatling Recorder](https://docs.gatling.io/tutorials/recorder/) and use it to capture browser-based actions and help create a realistic user scenario:
@@ -36,6 +36,6 @@ npm run clean # Delete Gatling bundled code and generated reports
 npm run format # Format code with prettier
 npm run check # TypeScript project only, type check but don't build or run
 npm run build # Build project but don't run
-npm run computerdatabase # Run the included computerdatabase simulation
+npm run test # Run the included videogame simulation
 npm run recorder # Starts the Gatling Recorder
 ```
