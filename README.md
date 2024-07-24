@@ -1,6 +1,4 @@
-# Gatling JS - JavaScript and TypeScript demo projects
-
-A simple showcase of JavaScript and TypeScript NPM projects using Gatling JS. Please also check out the [introduction to JavaScript scripting](https://docs.gatling.io/tutorials/scripting-intro-js/) in the Gatling documentation.
+# Gatling- TypeScript demo projects
 
 ## Prerequisites
 
@@ -11,17 +9,9 @@ You need [Node.js](https://nodejs.org/en/download) v18 or later (LTS versions on
 Run the typeScript sample:
 
 ```shell
-cd typescript
+cd gatling-ts-demo
 npm install
 npx gatling run --typescript --simulation computerdatabase # automatically download Gatling runtime, build the project, and run the computerdatabase simulation
-```
-
-Or the JavaScript sample:
-
-```shell
-cd javascript
-npm install
-npx gatling run --simulation computerdatabase # automatically download Gatling runtime, build the project, and run the computerdatabase simulation
 ```
 
 You can also launch the [Gatling Recorder](https://docs.gatling.io/tutorials/recorder/) and use it to capture browser-based actions and help create a realistic user scenario:
